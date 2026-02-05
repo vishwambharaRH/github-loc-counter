@@ -1,0 +1,75 @@
+# Ignore rules for LOC counting
+# Files and directories to exclude from the count
+
+[patterns]
+# Build outputs
+ignore_dirs = [
+    "node_modules",
+    "target",
+    "build",
+    "dist",
+    ".next",
+    ".nuxt",
+    "out",
+    "coverage",
+    "__pycache__",
+    ".pytest_cache",
+    ".venv",
+    "venv",
+    "env",
+    ".git",
+    ".svn",
+    ".hg",
+]
+
+ignore_files = [
+    "Makefile",
+    "makefile",
+    "*.min.js",
+    "*.min.css",
+    "*.map",
+    "package-lock.json",
+    "yarn.lock",
+    "Cargo.lock",
+    "poetry.lock",
+    "*.pyc",
+    "*.pyo",
+    "*.so",
+    "*.dll",
+    "*.exe",
+    "*.o",
+    "*.a",
+]
+
+# File extensions to count (whitelist approach for accuracy)
+[languages]
+Python = [".py", ".pyw"]
+JavaScript = [".js", ".jsx", ".mjs"]
+TypeScript = [".ts", ".tsx"]
+Rust = [".rs"]
+Go = [".go"]
+Java = [".java"]
+C = [".c", ".h"]
+"C++" = [".cpp", ".cc", ".cxx", ".hpp", ".hxx", ".h++"]
+"C#" = [".cs"]
+Ruby = [".rb"]
+PHP = [".php"]
+Swift = [".swift"]
+Kotlin = [".kt", ".kts"]
+Scala = [".scala"]
+Shell = [".sh", ".bash", ".zsh"]
+HTML = [".html", ".htm"]
+CSS = [".css", ".scss", ".sass", ".less"]
+SQL = [".sql"]
+R = [".r", ".R"]
+YAML = [".yaml", ".yml"]
+JSON = [".json"]
+XML = [".xml"]
+Markdown = [".md", ".markdown"]
+Vue = [".vue"]
+Dart = [".dart"]
+Lua = [".lua"]
+Perl = [".pl", ".pm"]
+Haskell = [".hs"]
+Elixir = [".ex", ".exs"]
+Clojure = [".clj", ".cljs", ".cljc"]
