@@ -1,0 +1,90 @@
+name: Update LOC Statistics
+
+on:
+  schedule:
+    # Run every day at 00:00 UTC
+    - cron: '0 0 * * *'
+  workflow_dispatch: # Allow manual trigger
+  push:
+    branches:
+      - main
+    paths:
+      - 'aggregator/**'
+      - 'engine/**'
+      - 'renderer/**'
+      - 'updater/**'
+
+jobs:
+  update-stats:
+    runs-on: ubuntu-latest
+    
+    steps:
+      - name: Checkout repository
+        uses: actions/checkout@v4
+        with:
+          fetch-depth: 0
+      
+      - name: Set up Python
+        uses: actions/setup-python@v5
+        with:
+          python-version: '3.11'
+      
+      - name: Set up Rust
+        uses: actions-rs/toolchain@v1
+        with:
+          toolchain: stable
+          override: true
+      
+      - name: Install Python dependencies
+        run: |
+          python -m pip install --upgrade pip
+          pip install requests
+      
+      - name: Build Rust LOC counter
+        working-directory: ./engine
+        run: |
+          cargo build --release
+          cp target/release/loc_runner ./loc_runner
+      
+      - name: Fetch repositories
+        working-directory: ./aggregator
+        env:
+          GITHUB_USERNAME: ${{ github.repository_owner }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python fetch_repos.py
+      
+      - name: Clone/Update repositories
+        working-directory: ./aggregator
+        run: python clone_or_fetch.py
+      
+      - name: Run LOC counter
+        working-directory: ./aggregator
+        env:
+          GITHUB_USERNAME: ${{ github.repository_owner }}
+          GITHUB_TOKEN: ${{ secrets.GITHUB_TOKEN }}
+        run: python aggregate.py
+      
+      - name: Update README
+        working-directory: ./updater
+        env:
+          GITHUB_USERNAME: ${{ github.repository_owner }}
+          README_PATH: '../README.md'
+          SECTION_TYPE: 'compact'
+          GENERATE_SVG: 'true'
+        run: python update_readme.py
+      
+      - name: Commit and push if changed
+        run: |
+          git config --global user.name 'github-actions[bot]'
+          git config --global user.email 'github-actions[bot]@users.noreply.github.com'
+          git add -A
+          git diff --quiet && git diff --staged --quiet || (git commit -m "Update LOC statistics [skip ci]" && git push)
+      
+      - name: Upload artifacts
+        uses: actions/upload-artifact@v4
+        with:
+          name: loc-statistics
+          path: |
+            updater/cache.json
+            updater/loc_stats.svg
+            aggregator/loc_results.json

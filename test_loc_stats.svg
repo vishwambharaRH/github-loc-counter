@@ -1,0 +1,99 @@
+<svg width="495" height="350" viewBox="0 0 495 350" 
+     xmlns="http://www.w3.org/2000/svg" role="img" 
+     aria-labelledby="descId">
+  <title id="titleId">Code Statistics</title>
+  <desc id="descId">Lines of code statistics for TestUser</desc>
+  
+  <style>
+    .header { font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif; fill: #2f80ed }
+    .stat-value { font: 600 20px 'Segoe UI', Ubuntu, Sans-Serif; fill: #333 }
+    .stat-label { font: 400 12px 'Segoe UI', Ubuntu, Sans-Serif; fill: #666 }
+    .lang-name { font: 400 12px 'Segoe UI', Ubuntu, Sans-Serif; fill: #333 }
+    .lang-percent { font: 400 11px 'Segoe UI', Ubuntu, Sans-Serif; fill: #666 }
+    .lang-lines { font: 400 11px 'Segoe UI', Ubuntu, monospace; fill: #666 }
+  </style>
+  
+  <rect width="495" height="350" fill="#fffefe" rx="4.5" stroke="#e4e2e2" stroke-width="1"/>
+  
+  <g transform="translate(20, 25)">
+    <text x="0" y="0" class="header">Code Statistics</text>
+    
+    <g transform="translate(0, 30)">
+      <text x="0" y="0" class="stat-label">Total Lines of Code</text>
+      <text x="0" y="20" class="stat-value">85,127</text>
+    </g>
+    
+    <g transform="translate(0, 70)">
+      <text x="0" y="0" class="stat-label">Language Distribution</text>
+      <g transform="translate(0, 15)">
+        <rect x="0" y="0" width="137.24775923032647" height="8" fill="#3776AB" rx="2"/>
+      <rect x="137.24775923032647" y="0" width="97.45991283611545" height="8" fill="#F7DF1E" rx="2"/>
+      <rect x="234.70767206644192" y="0" width="82.48334840884796" height="8" fill="#3178C6" rx="2"/>
+      <rect x="317.19102047528986" y="0" width="47.682345201874845" height="8" fill="#DEA584" rx="2"/>
+      <rect x="364.8733656771647" y="0" width="34.97204177288052" height="8" fill="#00ADD8" rx="2"/>
+      <rect x="399.84540745004523" y="0" width="23.09555135268481" height="8" fill="#E34C26" rx="2"/>
+      <rect x="422.94095880273005" y="0" width="17.157306142586958" height="8" fill="#563D7C" rx="2"/>
+      <rect x="440.098264945317" y="0" width="6.595674697804457" height="8" fill="#89E051" rx="2"/>
+      </g>
+    </g>
+    
+    <g transform="translate(0, 110)">
+      
+    <g transform="translate(0, 0)">
+      <circle cx="5" cy="6" r="5" fill="#3776AB"/>
+      <text x="15" y="10" class="lang-name">Python</text>
+      <text x="280" y="10" class="lang-percent" text-anchor="end">30.2%</text>
+      <text x="440" y="10" class="lang-lines" text-anchor="end">25.7K lines</text>
+    </g>
+
+    <g transform="translate(0, 25)">
+      <circle cx="5" cy="6" r="5" fill="#F7DF1E"/>
+      <text x="15" y="10" class="lang-name">JavaScript</text>
+      <text x="280" y="10" class="lang-percent" text-anchor="end">21.4%</text>
+      <text x="440" y="10" class="lang-lines" text-anchor="end">18.2K lines</text>
+    </g>
+
+    <g transform="translate(0, 50)">
+      <circle cx="5" cy="6" r="5" fill="#3178C6"/>
+      <text x="15" y="10" class="lang-name">TypeScript</text>
+      <text x="280" y="10" class="lang-percent" text-anchor="end">18.1%</text>
+      <text x="440" y="10" class="lang-lines" text-anchor="end">15.4K lines</text>
+    </g>
+
+    <g transform="translate(0, 75)">
+      <circle cx="5" cy="6" r="5" fill="#DEA584"/>
+      <text x="15" y="10" class="lang-name">Rust</text>
+      <text x="280" y="10" class="lang-percent" text-anchor="end">10.5%</text>
+      <text x="440" y="10" class="lang-lines" text-anchor="end">8.9K lines</text>
+    </g>
+
+    <g transform="translate(0, 100)">
+      <circle cx="5" cy="6" r="5" fill="#00ADD8"/>
+      <text x="15" y="10" class="lang-name">Go</text>
+      <text x="280" y="10" class="lang-percent" text-anchor="end">7.7%</text>
+      <text x="440" y="10" class="lang-lines" text-anchor="end">6.5K lines</text>
+    </g>
+
+    <g transform="translate(0, 125)">
+      <circle cx="5" cy="6" r="5" fill="#E34C26"/>
+      <text x="15" y="10" class="lang-name">HTML</text>
+      <text x="280" y="10" class="lang-percent" text-anchor="end">5.1%</text>
+      <text x="440" y="10" class="lang-lines" text-anchor="end">4.3K lines</text>
+    </g>
+
+    <g transform="translate(0, 150)">
+      <circle cx="5" cy="6" r="5" fill="#563D7C"/>
+      <text x="15" y="10" class="lang-name">CSS</text>
+      <text x="280" y="10" class="lang-percent" text-anchor="end">3.8%</text>
+      <text x="440" y="10" class="lang-lines" text-anchor="end">3.2K lines</text>
+    </g>
+
+    <g transform="translate(0, 175)">
+      <circle cx="5" cy="6" r="5" fill="#89E051"/>
+      <text x="15" y="10" class="lang-name">Shell</text>
+      <text x="280" y="10" class="lang-percent" text-anchor="end">1.4%</text>
+      <text x="440" y="10" class="lang-lines" text-anchor="end">1.2K lines</text>
+    </g>
+    </g>
+  </g>
+</svg>
