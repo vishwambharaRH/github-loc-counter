@@ -108,6 +108,7 @@ def main():
     
     # Get configuration from environment
     readme_path = os.environ.get('README_PATH', '../README.md')
+    profile_readme_path = os.environ.get('PROFILE_README_PATH')
     username = os.environ.get('GITHUB_USERNAME', 'User')
     section_type = os.environ.get('SECTION_TYPE', 'compact')
     generate_svg_flag = os.environ.get('GENERATE_SVG', 'true').lower() == 'true'
@@ -135,9 +136,17 @@ def main():
     else:
         print("✗ Failed to update README")
     
+    # Update profile README if specified
+    if profile_readme_path:
+        print(f"\nUpdating profile README at {profile_readme_path}...")
+        if update_readme(profile_readme_path, loc_data, section_type, username):
+            print("✓ Profile README updated successfully")
+        else:
+            print("✗ Failed to update profile README")
+    
     # Generate SVG if requested
     if generate_svg_flag:
-        print("Generating SVG card...")
+        print("\nGenerating SVG card...")
         generate_svg(loc_data, username)
         print("✓ SVG card generated")
     
