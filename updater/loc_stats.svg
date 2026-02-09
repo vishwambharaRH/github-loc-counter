@@ -1,0 +1,37 @@
+<svg width="495" height="150" viewBox="0 0 495 150" 
+     xmlns="http://www.w3.org/2000/svg" role="img" 
+     aria-labelledby="descId">
+  <title id="titleId">Code Statistics</title>
+  <desc id="descId">Lines of code statistics for User</desc>
+  
+  <style>
+    .header { font: 600 18px 'Segoe UI', Ubuntu, Sans-Serif; fill: #2f80ed }
+    .stat-value { font: 600 20px 'Segoe UI', Ubuntu, Sans-Serif; fill: #333 }
+    .stat-label { font: 400 12px 'Segoe UI', Ubuntu, Sans-Serif; fill: #666 }
+    .lang-name { font: 400 12px 'Segoe UI', Ubuntu, Sans-Serif; fill: #333 }
+    .lang-percent { font: 400 11px 'Segoe UI', Ubuntu, Sans-Serif; fill: #666 }
+    .lang-lines { font: 400 11px 'Segoe UI', Ubuntu, monospace; fill: #666 }
+  </style>
+  
+  <rect width="495" height="150" fill="#fffefe" rx="4.5" stroke="#e4e2e2" stroke-width="1"/>
+  
+  <g transform="translate(20, 25)">
+    <text x="0" y="0" class="header">Code Statistics</text>
+    
+    <g transform="translate(0, 30)">
+      <text x="0" y="0" class="stat-label">Total Lines of Code</text>
+      <text x="0" y="20" class="stat-value">0</text>
+    </g>
+    
+    <g transform="translate(0, 70)">
+      <text x="0" y="0" class="stat-label">Language Distribution</text>
+      <g transform="translate(0, 15)">
+        
+      </g>
+    </g>
+    
+    <g transform="translate(0, 110)">
+      
+    </g>
+  </g>
+</svg>
