@@ -34,9 +34,10 @@ def run_loc_counter() -> Dict[str, int]:
             print(f"Error building Rust counter: {build_result.stderr}")
             return {}
     
-    # Run the counter
+    # Run the counter from the engine directory with correct relative path
     result = subprocess.run(
-        [str(engine_path), 'repos'],
+        ['./loc_runner', '../aggregator/repos'],
+        cwd='../engine',
         capture_output=True,
         text=True
     )

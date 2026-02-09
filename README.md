@@ -12,9 +12,9 @@ I will actively exclude forks, archived repositories and makefiles from the coun
 <!-- LOC-STATS:START -->
 ### 💻 Lines of Code
 
+![Python](https://img.shields.io/badge/Python-14.1K%20lines-3776AB?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-7.9K%20lines-F7DF1E?style=flat-square) ![Markdown](https://img.shields.io/badge/Markdown-4.3K%20lines-555555?style=flat-square) ![HTML](https://img.shields.io/badge/HTML-2.4K%20lines-E34C26?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-2.0K%20lines-563D7C?style=flat-square) ![C](https://img.shields.io/badge/C-1.4K%20lines-A8B9CC?style=flat-square) ![C++](https://img.shields.io/badge/C%2B%2B-1.4K%20lines-F34B7D?style=flat-square) ![TypeScript](https://img.shields.io/badge/TypeScript-1.2K%20lines-3178C6?style=flat-square)
 
-
-*Total: 0 lines across 0 languages*
+*Total: 36,711 lines across 15 languages*
 <!-- LOC-STATS:END -->
 
 Live long and prosper.

@@ -8,8 +8,8 @@ from datetime import datetime
 from pathlib import Path
 import sys
 
-# Add parent directory to path to import renderer modules
-sys.path.append(str(Path(__file__).parent.parent / 'renderer'))
+# Add parent directory to path to import renderer modules (insert at beginning to prioritize)
+sys.path.insert(0, str(Path(__file__).parent.parent / 'renderer'))
 
 from markdown import generate_compact_section, generate_full_section
 from svg_card import save_svg_card
