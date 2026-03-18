@@ -20,20 +20,20 @@
     
     <g transform="translate(0, 30)">
       <text x="0" y="0" class="stat-label">Total Lines of Code</text>
-      <text x="0" y="20" class="stat-value">33,738</text>
+      <text x="0" y="20" class="stat-value">33,740</text>
     </g>
     
     <g transform="translate(0, 70)">
       <text x="0" y="0" class="stat-label">Language Distribution</text>
       <g transform="translate(0, 15)">
-        <rect x="0" y="0" width="199.43505839113166" height="8" fill="#3776AB" rx="2"/>
-      <rect x="199.43505839113166" y="0" width="60.85008002845457" height="8" fill="#555555" rx="2"/>
-      <rect x="260.28513841958625" y="0" width="53.95859268480645" height="8" fill="#F7DF1E" rx="2"/>
-      <rect x="314.2437311043927" y="0" width="31.948989270259055" height="8" fill="#E34C26" rx="2"/>
-      <rect x="346.19272037465174" y="0" width="27.485031714980142" height="8" fill="#563D7C" rx="2"/>
-      <rect x="373.6777520896319" y="0" width="19.28537554093307" height="8" fill="#F34B7D" rx="2"/>
-      <rect x="392.96312763056494" y="0" width="18.90775979607564" height="8" fill="#A8B9CC" rx="2"/>
-      <rect x="411.8708874266406" y="0" width="16.722982986543364" height="8" fill="#3178C6" rx="2"/>
+        <rect x="0" y="0" width="199.4232365145228" height="8" fill="#3776AB" rx="2"/>
+      <rect x="199.4232365145228" y="0" width="60.87344398340249" height="8" fill="#555555" rx="2"/>
+      <rect x="260.2966804979253" y="0" width="53.95539419087137" height="8" fill="#F7DF1E" rx="2"/>
+      <rect x="314.25207468879665" y="0" width="31.94709543568465" height="8" fill="#E34C26" rx="2"/>
+      <rect x="346.1991701244813" y="0" width="27.483402489626556" height="8" fill="#563D7C" rx="2"/>
+      <rect x="373.68257261410787" y="0" width="19.28423236514523" height="8" fill="#F34B7D" rx="2"/>
+      <rect x="392.9668049792531" y="0" width="18.906639004149376" height="8" fill="#A8B9CC" rx="2"/>
+      <rect x="411.87344398340247" y="0" width="16.721991701244814" height="8" fill="#3178C6" rx="2"/>
       </g>
     </g>
     
