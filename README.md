@@ -14,7 +14,7 @@ I will actively exclude forks, archived repositories and makefiles from the coun
 
 ![Python](https://img.shields.io/badge/Python-15.0K%20lines-3776AB?style=flat-square) ![Markdown](https://img.shields.io/badge/Markdown-7.6K%20lines-555555?style=flat-square) ![JavaScript](https://img.shields.io/badge/JavaScript-4.0K%20lines-F7DF1E?style=flat-square) ![HTML](https://img.shields.io/badge/HTML-2.4K%20lines-E34C26?style=flat-square) ![C++](https://img.shields.io/badge/C%2B%2B-2.2K%20lines-F34B7D?style=flat-square) ![CSS](https://img.shields.io/badge/CSS-2.0K%20lines-563D7C?style=flat-square) ![Swift](https://img.shields.io/badge/Swift-2.0K%20lines-F05138?style=flat-square) ![C](https://img.shields.io/badge/C-1.9K%20lines-A8B9CC?style=flat-square)
 
-*Total: 41,676 lines across 15 languages*
+*Total: 41,796 lines across 15 languages*
 <!-- LOC-STATS:END -->
 
 
