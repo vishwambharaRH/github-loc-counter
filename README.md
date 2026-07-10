@@ -9,6 +9,8 @@ If there are any easy improvements that can be done that I was too dumb to think
 Essentially should show up on my public profile README as a section that shows total lines of code across the top 8 languages I have used across all my repositories. 
 I will actively exclude forks, archived repositories and makefiles from the count.
 
+Edit (Jul 2026) : So it works now, and has been working for quite some time. Anybody is welcome to use it, and if you improve it, tell me what you did so I can do that too.
+
 <!-- LOC-STATS:START -->
 ### 💻 Lines of Code
 
