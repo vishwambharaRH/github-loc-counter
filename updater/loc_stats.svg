@@ -20,20 +20,20 @@
     
     <g transform="translate(0, 30)">
       <text x="0" y="0" class="stat-label">Total Lines of Code</text>
-      <text x="0" y="20" class="stat-value">47,448</text>
+      <text x="0" y="20" class="stat-value">48,516</text>
     </g>
     
     <g transform="translate(0, 70)">
       <text x="0" y="0" class="stat-label">Language Distribution</text>
       <g transform="translate(0, 15)">
-        <rect x="0" y="0" width="153.22015680323722" height="8" fill="#3776AB" rx="2"/>
-      <rect x="153.22015680323722" y="0" width="81.81714719271623" height="8" fill="#555555" rx="2"/>
-      <rect x="235.03730399595344" y="0" width="38.693411734951944" height="8" fill="#F7DF1E" rx="2"/>
-      <rect x="273.7307157309054" y="0" width="38.33860225931546" height="8" fill="#E34C26" rx="2"/>
-      <rect x="312.06931799022084" y="0" width="20.847454054965436" height="8" fill="#F34B7D" rx="2"/>
-      <rect x="332.9167720451863" y="0" width="20.18578233012983" height="8" fill="#563D7C" rx="2"/>
-      <rect x="353.1025543753161" y="0" width="19.361090035407184" height="8" fill="#F05138" rx="2"/>
-      <rect x="372.4636444107233" y="0" width="18.0952832574608" height="8" fill="#A8B9CC" rx="2"/>
+        <rect x="0" y="0" width="149.84726688102893" height="8" fill="#3776AB" rx="2"/>
+      <rect x="149.84726688102893" y="0" width="86.46838156484459" height="8" fill="#555555" rx="2"/>
+      <rect x="236.31564844587353" y="0" width="38.04796355841372" height="8" fill="#F7DF1E" rx="2"/>
+      <rect x="274.36361200428723" y="0" width="37.61655948553055" height="8" fill="#E34C26" rx="2"/>
+      <rect x="311.9801714898178" y="0" width="20.388531618435156" height="8" fill="#F34B7D" rx="2"/>
+      <rect x="332.36870310825293" y="0" width="19.844587352625936" height="8" fill="#563D7C" rx="2"/>
+      <rect x="352.21329046087885" y="0" width="18.934887459807072" height="8" fill="#F05138" rx="2"/>
+      <rect x="371.14817792068595" y="0" width="17.696945337620576" height="8" fill="#A8B9CC" rx="2"/>
       </g>
     </g>
     
@@ -42,35 +42,35 @@
     <g transform="translate(0, 0)">
       <circle cx="5" cy="6" r="5" fill="#3776AB"/>
       <text x="15" y="10" class="lang-name">Python</text>
-      <text x="280" y="10" class="lang-percent" text-anchor="end">33.7%</text>
+      <text x="280" y="10" class="lang-percent" text-anchor="end">32.9%</text>
       <text x="440" y="10" class="lang-lines" text-anchor="end">16.0K lines</text>
     </g>
 
     <g transform="translate(0, 25)">
       <circle cx="5" cy="6" r="5" fill="#555555"/>
       <text x="15" y="10" class="lang-name">Markdown</text>
-      <text x="280" y="10" class="lang-percent" text-anchor="end">18.0%</text>
-      <text x="440" y="10" class="lang-lines" text-anchor="end">8.5K lines</text>
+      <text x="280" y="10" class="lang-percent" text-anchor="end">19.0%</text>
+      <text x="440" y="10" class="lang-lines" text-anchor="end">9.2K lines</text>
     </g>
 
     <g transform="translate(0, 50)">
       <circle cx="5" cy="6" r="5" fill="#F7DF1E"/>
       <text x="15" y="10" class="lang-name">JavaScript</text>
-      <text x="280" y="10" class="lang-percent" text-anchor="end">8.5%</text>
-      <text x="440" y="10" class="lang-lines" text-anchor="end">4.0K lines</text>
+      <text x="280" y="10" class="lang-percent" text-anchor="end">8.4%</text>
+      <text x="440" y="10" class="lang-lines" text-anchor="end">4.1K lines</text>
     </g>
 
     <g transform="translate(0, 75)">
       <circle cx="5" cy="6" r="5" fill="#E34C26"/>
       <text x="15" y="10" class="lang-name">HTML</text>
-      <text x="280" y="10" class="lang-percent" text-anchor="end">8.4%</text>
+      <text x="280" y="10" class="lang-percent" text-anchor="end">8.3%</text>
       <text x="440" y="10" class="lang-lines" text-anchor="end">4.0K lines</text>
     </g>
 
     <g transform="translate(0, 100)">
       <circle cx="5" cy="6" r="5" fill="#F34B7D"/>
       <text x="15" y="10" class="lang-name">C++</text>
-      <text x="280" y="10" class="lang-percent" text-anchor="end">4.6%</text>
+      <text x="280" y="10" class="lang-percent" text-anchor="end">4.5%</text>
       <text x="440" y="10" class="lang-lines" text-anchor="end">2.2K lines</text>
     </g>
 
@@ -84,14 +84,14 @@
     <g transform="translate(0, 150)">
       <circle cx="5" cy="6" r="5" fill="#F05138"/>
       <text x="15" y="10" class="lang-name">Swift</text>
-      <text x="280" y="10" class="lang-percent" text-anchor="end">4.3%</text>
+      <text x="280" y="10" class="lang-percent" text-anchor="end">4.2%</text>
       <text x="440" y="10" class="lang-lines" text-anchor="end">2.0K lines</text>
     </g>
 
     <g transform="translate(0, 175)">
       <circle cx="5" cy="6" r="5" fill="#A8B9CC"/>
       <text x="15" y="10" class="lang-name">C</text>
-      <text x="280" y="10" class="lang-percent" text-anchor="end">4.0%</text>
+      <text x="280" y="10" class="lang-percent" text-anchor="end">3.9%</text>
       <text x="440" y="10" class="lang-lines" text-anchor="end">1.9K lines</text>
     </g>
     </g>
