@@ -1,23 +1,23 @@
 {
-  "last_update": "2026-08-18T00:39:37.024853",
+  "last_update": "2026-08-18T15:15:37.206583",
   "languages": {
-    "SQL": 147,
-    "Java": 1718,
-    "TypeScript": 5601,
-    "C++": 2174,
-    "JavaScript": 4103,
-    "HTML": 4265,
-    "CSS": 2148,
-    "JSON": 609,
     "Swift": 2019,
-    "C": 1887,
-    "YAML": 714,
-    "Markdown": 9649,
-    "XML": 415,
-    "Shell": 1754,
     "Python": 20829,
-    "Rust": 164
+    "CSS": 2148,
+    "SQL": 147,
+    "Shell": 1754,
+    "Java": 1718,
+    "JSON": 609,
+    "XML": 415,
+    "Rust": 164,
+    "HTML": 4265,
+    "C": 1887,
+    "C++": 2174,
+    "TypeScript": 5601,
+    "Markdown": 9246,
+    "JavaScript": 4103,
+    "YAML": 714
   },
-  "total_lines": 58196,
-  "repos_processed": 32
+  "total_lines": 57793,
+  "repos_processed": 31
 }
