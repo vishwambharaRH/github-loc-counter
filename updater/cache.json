@@ -1,24 +1,24 @@
 {
-  "last_update": "2026-11-19T05:02:06.229210",
+  "last_update": "2026-11-20T04:53:16.204468",
   "languages": {
-    "SQL": 171,
-    "Rust": 164,
-    "Kotlin": 1204,
-    "HTML": 4635,
-    "XML": 483,
-    "Java": 1718,
-    "Shell": 1870,
-    "TypeScript": 5704,
-    "JSON": 2122,
-    "JavaScript": 4408,
-    "YAML": 1355,
-    "Markdown": 12003,
-    "C++": 2174,
+    "HTML": 4368,
     "C": 4472,
-    "CSS": 2669,
-    "Python": 28612,
-    "Swift": 2019
+    "YAML": 1355,
+    "Markdown": 9863,
+    "Shell": 1817,
+    "Swift": 2019,
+    "TypeScript": 1309,
+    "Java": 1718,
+    "Python": 19536,
+    "Rust": 164,
+    "SQL": 171,
+    "JavaScript": 4340,
+    "Kotlin": 1204,
+    "XML": 483,
+    "JSON": 592,
+    "CSS": 2626,
+    "C++": 2174
   },
-  "total_lines": 75783,
-  "repos_processed": 35
+  "total_lines": 58211,
+  "repos_processed": 34
 }
